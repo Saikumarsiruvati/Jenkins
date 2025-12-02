@@ -13,7 +13,7 @@ public class JenkinsDemoApplication {
 		SpringApplication.run(JenkinsDemoApplication.class, args);
 	}
 
-    @GetMapping("/home")
+    @GetMapping("/welcome")
     public String home() {
         return "Welcome to Home!";
     }
